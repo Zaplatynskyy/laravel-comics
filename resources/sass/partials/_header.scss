@@ -1,0 +1,48 @@
+@import 'variables';
+
+header {
+    height: 120px;
+    background-color: $col_white;
+
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // dimensioni logo
+        img {
+                height: 80px;
+        }
+
+        // proprietà link di collegamento header
+        .header_nav {
+            
+            ul {
+
+                li {
+                    display: inline-block;
+
+                    a {
+                        height: 120px;
+                        line-height: 120px;
+                        font-weight: bold;
+                        color: $text_link_color;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        margin: 0 15px;
+
+                        &:hover {
+                            color: $primary_color;
+                            border-bottom: 5px solid $primary_color;
+                        }
+
+                        &.selected {
+                            color: $primary_color;
+                            border-bottom: 5px solid $primary_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
