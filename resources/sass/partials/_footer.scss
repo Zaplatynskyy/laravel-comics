@@ -1,0 +1,123 @@
+@import 'variables';
+
+.top_footer {
+    background-color: $primary_color;
+    // <!-- lista link collegamento del top footer -->
+    ul {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            color: $col_white;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 60px;
+                margin-right: 15px;
+            }
+        }
+
+        li:last-child {
+            img {
+                height: 40px;
+            }
+        }
+    }
+}
+
+.main_footer {
+        
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+
+    .container {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        .footer_nav {
+            display: flex;
+            .ul_col {
+                margin-right: 30px;
+
+                #shop {
+                    margin-top: 20px;
+                }
+
+                li {
+                    margin: 5px 0;
+                }
+                // li:firs-child rappresenta il titolo di ogni colonna dei link utili
+                li:first-child {
+                    margin-bottom: 15px;
+                }
+
+                li:first-child a{
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: $col_white;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        text-decoration: none;
+                        cursor: default;
+                    }
+                }
+
+                a {
+                    color: $text_link_color;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        // dimensioni logo footer
+        img {
+            width: 600px;
+        }
+    }
+}
+
+.bottom_footer {
+    background-color: $secondary_color;
+
+    .container {    
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        // <!-- bottone login del footer bottom -->
+        .btn {
+            background-color: $secondary_color;
+            border: 1px solid $primary_color;
+            padding: 10px;
+
+            &:hover {
+                background-color: black;
+            }
+        }
+
+        .social_nav {
+            li {
+                vertical-align: middle;
+                display: inline-block;
+                margin: 0 10px;
+            }
+            
+            // <!-- link social di collegamento del footer bottom -->
+            li:first-child a {
+                color: $primary_color;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
