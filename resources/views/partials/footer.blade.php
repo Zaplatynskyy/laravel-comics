@@ -100,7 +100,7 @@
 
             <!-- logo footer centrale -->
             <div class="footer_logo">
-                <img src="{{asset('img/dc-logo-bg.png')}}" alt="">
+                <img src="{{asset('img/dc-logo-bg.png')}}" alt="logo dc comics">
             </div>
         </div>
     </div>
@@ -113,11 +113,11 @@
             <!-- link social di collegamento del footer bottom -->
             <ul class="social_nav">
                 <li><a href="#">Follow us</a></li>
-                <li><a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt=""></a></li>
-                <li><a href="#"><img src="{{asset('img/footer-twitter.png')}}" alt=""></a></li>
-                <li><a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt=""></a></li>
-                <li><a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt=""></a></li>
-                <li><a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt="icon facebook"></a></li>
+                <li><a href="#"><img src="{{asset('img/footer-twitter.png')}}" alt="icon twitter"></a></li>
+                <li><a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt="icon youtube"></a></li>
+                <li><a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt="icon periscope"></a></li>
+                <li><a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt="icon pinterest"></a></li>
             </ul>
 
         </div>
