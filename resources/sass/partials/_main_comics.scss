@@ -1,10 +1,17 @@
 @import 'variables';
 
 // sezione jumbotron
-#jumbotron {
+.jumbotron {
     height: 400px;
-    background-image: url('../img/jumbotron.jpg');
     background-size: cover;
+}
+
+#jumbotron_comics {
+    background-image: url('../img/jumbotron-comics.jpg');
+}
+
+#jumbotron_characters {
+    background-image: url('../img/jumbotron-characters.jpg');
 }
 
 // <!-- sezione corpo main della pagina -->

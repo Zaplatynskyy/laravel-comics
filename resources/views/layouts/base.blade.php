@@ -12,11 +12,11 @@
     @include('partials.header')
 
     {{-- main --}}
-    <main>
-        @yield('pageContent')
-    </main>
+    @include('partials.main')
 
     {{-- footer --}}
     @include('partials.footer')
+    
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

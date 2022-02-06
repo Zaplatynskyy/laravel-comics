@@ -32,10 +32,17 @@ header .container .header_nav ul li a.selected {
   border-bottom: 5px solid #0282f9;
 }
 
-#jumbotron {
+.jumbotron {
   height: 400px;
-  background-image: url("../img/jumbotron.jpg");
   background-size: cover;
+}
+
+#jumbotron_comics {
+  background-image: url("../img/jumbotron-comics.jpg");
+}
+
+#jumbotron_characters {
+  background-image: url("../img/jumbotron-characters.jpg");
 }
 
 #main_content {
